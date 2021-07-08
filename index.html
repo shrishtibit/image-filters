@@ -1,0 +1,25 @@
+<h1 class = "box" >Filters Fun</h1>
+<h4>Try out different filters!(Please wait for few seconds after clicking the button)</h4>
+<script src = "http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+  </script>
+<canvas id = "can">
+  </canvas>
+<p>Upload Image : 
+<input type = "file" accept = "image/*" multiple = "false" id = "file" onchange = "uploadImage()" class = "fileclass" >
+  </p>
+   <p>Choose Filters :
+     <input type = "button" value = "Grayscale" onclick = "doGray()" class = "graybutton" id = "grayscale">
+      <input type = "button" value = "Red" onclick = "doRed()" class = "redbutton" id = "red">
+     <input type = "button" value = "Green" onclick = "doGreen()" class = "greenbutton" id = "green">
+     <input type = "button" value = "Blue" onclick = "doBlue()" class = "bluebutton" id = "blue">
+      <input type = "button" value = "Rainbow" onclick = "doRainbow()" class = "rainbowbutton" id = "rainbow">
+      <input type = "button" value = "Negative" onclick = "doNegative()" class = "negativebutton" id = "negative">
+      <input type = "button" value = "Window" onclick = "doWindow()" class = "windowbutton" id = "window">
+     <input type = "button" value = "Mirror" onclick = "doMirror()" class = "mirrorbutton" id = "mirror">
+     <input type = "button" value = "Add Frame" onclick = "doFrame()" class = "framebutton" id = "frame">
+     </p>
+<p>Always reset the image before trying a new filter:
+  <input type = "button" value = "Reset" onclick = "doReset()" class = "resetbutton" id = "reset">
+ </p>
+<br>
+<br>

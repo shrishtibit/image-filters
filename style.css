@@ -1,0 +1,121 @@
+canvas{
+  width:auto;
+  height:150px;
+  border:1px solid lightgray;
+}
+body{
+  text-align:center;
+  
+  color:white;
+  font-family:sans-serif;
+  font-weight:400;
+  text-shadow:2px 2px 4px #000000;
+  
+  background-image:url(https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+input{
+  padding:8px 12px;
+  font-size:16px;
+  margin:4px 2px;
+}
+.graybutton{
+  background-color:white;
+  color:black;
+  border:2px solid #555555;
+}
+.graybutton:hover{
+  background-color:#555555;
+  color:white;
+}
+.redbutton{
+  background-color:white;
+  color:black;
+  border:2px solid #EB4646;
+}
+.redbutton:hover{
+  background-color:#EB4646;
+  color:white;
+}
+.greenbutton{
+  background-color:white;
+  color:black;
+  border:2px solid #2FA743;
+}
+.greenbutton:hover{
+  background-color:#2FA743;
+  color:white;
+}
+.bluebutton{
+  background-color:white;
+  color:black;
+  border:2px solid #1122E3;
+}
+.bluebutton:hover{
+  background-color:#1122E3;
+  color:white;
+}
+.rainbowbutton{
+  background-color:white;
+  color:black;
+  border:2px solid #ED0C80;
+}
+.rainbowbutton:hover{
+  background-color:#ED0C80;
+  color:white;
+}
+.negativebutton{
+  background-color:white;
+  color:black;
+  border:2px solid #A5A1A3;
+}
+.negativebutton:hover{
+  background-color:#A5A1A3;
+  color:white;
+}
+.windowbutton{
+  background-color:white;
+  color:black;
+  border:2px solid #CEB121;
+}
+.windowbutton:hover{
+  background-color:#CEB121;
+  color:white;
+}
+.mirrorbutton{
+  background-color:white;
+  color:black;
+  border:2px solid #471AA2;
+}
+.mirrorbutton:hover{
+  background-color:#471AA2;
+  color:white;
+}
+.framebutton{
+  background-color:white;
+  color:black;
+  border:2px solid #EA841F;
+}
+.framebutton:hover{
+  background-color:#EA841F;
+  color:white;
+}
+.resetbutton{
+  background-color:white;
+  color:black;
+  border:2px solid #EA1FC8;
+}
+.resetbutton:hover{
+  background-color:#EA1FC8;
+  color:white;
+}
+.fileclass{
+  background-color:white;
+  color:black;
+  border:2px solid #A6A6DC;
+}
+.fileclass:hover{
+  background-color:#A6A6DC;
+  color:white;
+}
